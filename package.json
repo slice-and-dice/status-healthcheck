@@ -1,0 +1,9 @@
+{
+  "name": "register-a-food-business-status",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.2.0",
+    "winston": "^3.1.0"
+  }
+}
