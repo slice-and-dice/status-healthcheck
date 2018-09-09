@@ -166,38 +166,6 @@ const getStatus = async () => {
     console.log(`
     `);
   }
-
-  // const backEndStatus = await fetch(
-  //   "https://dev-register-a-food-business-service.azurewebsites.net/api/status/all"
-  // );
-
-  // const backEndHealthcheckJson = await backEndStatus.json();
-
-  // console.log("BACK END STATUS REPORT: ".bgBlue.bold.white);
-  // for (let statusName in backEndHealthcheckJson) {
-  //   if (backEndHealthcheckJson[statusName] === false) {
-  //     // Indicates that a service failed the last time it was called
-  //     console.log(
-  //       statusName.red + ": " + `${backEndHealthcheckJson[statusName]}`.red
-  //     );
-  //   } else if (
-  //     statusName.includes("Failed") &&
-  //     Number.isInteger(backEndHealthcheckJson[statusName]) &&
-  //     backEndHealthcheckJson[statusName] > 0
-  //   ) {
-  //     // Indicates that a service has failed at least once
-  //     console.log(
-  //       statusName.red + ": " + `${backEndHealthcheckJson[statusName]}`.red
-  //     );
-  //   } else {
-  //     // Indicates that a service is currently working or worked the most recent time it was called.
-  //     console.log(
-  //       statusName.green + ": " + `${backEndHealthcheckJson[statusName]}`.green
-  //     );
-  //   }
-  // }
-  // console.log(`
-  // `);
 };
 
 getHealthcheck();
