@@ -171,5 +171,5 @@ const getStatus = async () => {
 getHealthcheck();
 getStatus();
 
-setInterval(getHealthcheck, 2000);
-setInterval(getStatus, 2000);
+setInterval(getHealthcheck, 30000);
+setInterval(getStatus, 30000);
